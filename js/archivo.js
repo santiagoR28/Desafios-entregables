@@ -1,4 +1,4 @@
-const promedio = (a, b, c, d, e) => (a + b + c + d + e) / 5;
+let promedio = (a, b, c, d, e) => (a + b + c + d + e) / 5;
 
 let alumno1 = promedio(
   parseInt(prompt("ingresa tu calificacion de Matematicas")),
